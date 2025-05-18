@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-A = "Holberton SchoolHHolberton School"
-b = "Holberton"
-print(f"{A}\n{b}")
+A = "Holberton School"
+print(f"{A}{A}{A}\n{A[:9]}")
