@@ -1,4 +1,4 @@
-u#!/usr/bin/python3
+#!/usr/bin/python3
 wored = "Holberton"
 print(f"First 3 letters: {wored[0:3]}")
 print(f"Last 2 letters: {wored[-2:]}")
