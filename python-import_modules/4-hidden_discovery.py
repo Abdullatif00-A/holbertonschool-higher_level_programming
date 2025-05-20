@@ -1,9 +1,7 @@
-u#!/usr/bin/python3
-
-import hidden_4
-
+#!/usr/bin/python3
 if __name__ == "__main__":
-    all = dir(hidden_4)
-    for one in all:
-        if one[:2] != "__":
-            print(one)
+    import hidden_4 as hidden
+    list = dir(hidden)
+    for x in range(len(list)):
+        if(list[x][0] != '_'):
+            print(list[x])
